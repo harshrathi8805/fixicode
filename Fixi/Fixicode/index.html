@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylesheet/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Home | FixiCode</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <h1 class="logo_text">
+            Fixi<span class="logo_text agency">Code</span>
+            <!-- Web <span class="logo_text agency">Solutions</span>  -->
+          </h1>
+        </div>
+        <div class="tabs">
+          <ul>
+            <a href="index.html">
+              <li class="active_tab">Home</li>
+            </a>
+            <a href="about.html">
+              <li>About</li>
+            </a>
+            <a href="services.html">
+              <li>Our Services</li>
+            </a>
+            <a href="contact.html">
+              <li>Contact Us</li>
+            </a>
+          </ul>
+        </div>
+        <div class="toggle">
+          <i class="fa-solid fa-bars" id="bars" onclick="mobileTab()"></i>
+          <i class="fa-solid fa-xmark" id="cancel" onclick="mobileTabClose()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div id="mobile_button">
+      <ul>
+        <a href="index.html">
+          <li class="active_nav">Home</li>
+        </a>
+        <a href="about.html">
+          <li>About</li>
+        </a>
+        <a href="services.html">
+          <li>Our Services</li>
+        </a>
+        <a href="contact.html">
+          <li>Contact Us</li>
+        </a>
+      </ul>
+    </div>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Your Vision</h1>
+        <h1 class="highlight">Our Mission</h1>
+        <p>
+          Welcome to <span class="imp">FixiCode</span>, where technology meets
+          creativity. We are a full-service web development and digital
+          solutions agency committed to helping businesses grow online. From
+          intuitive website design to robust backend systems and SEO
+          optimization, we deliver high-performing digital platforms that
+          truly work. Your vision is our mission — and we’re here to bring it
+          to life with precision, reliability, and innovation.
+        </p>
+        <a href="contact.html">
+          <button id="contactBtn">CONTACT US</button>
+        </a>
+      </div>
+      <div class="hero-image">
+        <img src="images/home-image.png" alt="Programming Illustration" id="hero-animation" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="article-container4">
+      <div class="article-box4">
+        <div class="box">
+          <h1>50+</h1>
+          <p>Projects Completed</p>
+        </div>
+        <div class="box">
+          <h1>35+</h1>
+          <p>Happy Clients</p>
+        </div>
+        <div class="box">
+          <h1>2+</h1>
+          <p>Years Experience</p>
+        </div>
+        <div class="box">
+          <h1>24 X 7</h1>
+          <p>Customer Support</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="trust">
+      <div class="trusted-wrapper">
+        <p class="trusted-title">Trusted By 4,000+ Companies</p>
+        <div class="logo-strip">
+          <div class="company">
+            <img
+              src="https://icon2.cleanpng.com/20190513/lkc/kisspng-spotify-computer-icons-logo-podcast-streaming-medi-camilla-north-1713892847144.webp"
+              alt="Spotify Logo" />
+            <span>Spotify</span>
+          </div>
+          <div class="company">
+            <img
+              src="https://user-images.githubusercontent.com/16886711/58640043-7ea8c200-82f8-11e9-9e32-57a920cea468.png"
+              alt="Slack Logo" />
+            <span>Slack</span>
+          </div>
+          <div class="company">
+            <img
+              src="https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png"
+              alt="Github Logo" />
+            <span>Github</span>
+          </div>
+          <div class="company">
+            <img src="https://www.shareicon.net/data/2048x2048/2016/07/13/606469_dropbox_4096x4096.png"
+              alt="Dropbox Logo" />
+            <span>Dropbox</span>
+          </div>
+          <div class="company zoom">
+            <img src="https://w7.pngwing.com/pngs/2/178/png-transparent-zoom-meeting-socials-icon.png"
+              alt="Zoom Logo" />
+            <span>Zoom</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="article-container1">
+      <div class="article-box1">
+        <div class="article-content1">
+          <h2 class="article-text1">Your Code, Our Commitment</h2>
+          <p>
+            Fixicode is a forward-thinking IT solutions and service platform built to empower businesses, developers,
+            and enterprises with clean, scalable, and efficient code. Whether you're fixing bugs, building from scratch,
+            or enhancing performance, Fixicode is your go-to partner for reliable and innovative software solutions.
+          </p>
+        </div>
+        <div class="article-image1">
+          <img src="images/home-article-image.png" alt="objet" />
+        </div>
+      </div>
+    </section>
+
+    <section class="article-container2">
+      <div class="article-box2">
+        <div class="article-content2">
+          <h2 class="article-text2">Our Work Structure</h2>
+          <p>
+            At Fixicode, we follow a streamlined and transparent process to turn your ideas into powerful digital
+            solutions. We start by understanding your goals and challenges, then move into careful planning and
+            strategy. Our team designs intuitive, user-friendly interfaces before jumping into clean and scalable
+            development. Every project is thoroughly tested to ensure quality, followed by a smooth launch and
+            continuous post-launch support. With Fixicode, you’re always part of the journey—from start to success.
+          </p>
+        </div>
+        <div class="article-image2">
+          <img src="images/businessman-analyzing-data.png" alt="objet" />
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h4>TESTIMONIALS</h4>
+      <h2>READ WHAT OTHER</h2>
+      <h3>OTHER HAVE TO SAY</h3>
+      <div class="container-card">
+        <div class="card">
+          <div class="profile-img">
+            <img src="images/western-man-4975942-4159828 2.jpg" alt="Vera Duncan" />
+          </div>
+          <h4>Ravi Mehta</h4>
+          <p>
+            Fixicode transformed our legacy codebase into a clean, high-performing system. Their attention to detail and
+            understanding of scalable architecture is top-notch. It felt like working with an in-house team.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="profile-img">
+            <img src="images/western-man-4975942-4159828 2.jpg" alt="Vera Duncan" />
+          </div>
+          <h4>Sneha Kulkarni</h4>
+          <p>
+            We approached Fixicode for a full-stack web application, and they delivered beyond expectations. Timely
+            delivery, clean code, and superb communication. Highly recommend!
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="profile-img">
+            <img src="images/western-man-4975942-4159828 2.jpg" alt="Vera Duncan" />
+          </div>
+          <h4>Aditya Verma</h4>
+          <p>
+            Fixicode brought fresh ideas and real problem-solving skills to our product. Their code quality and UI
+            precision were impeccable. We'll be working with them again very soon.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="article-container3">
+      <div class="hero-image2">
+        <img src="images/customer-support.png" alt="Programming Illustration" id="hero-animation">
+      </div>
+      <div class="hero-content2">
+        <h1>We’re Just a</h1>
+        <h1>Message Away</h1>
+        <p>Have a question, an idea, or a project in mind? At Fixicode, we’re always ready to listen. Our team is here
+          to offer support, solutions, and a friendly conversation—right when you need it.
+        </p>
+        <a href="contact.html">
+          <button id="contactBtn">CONTACT US</button>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>Fixi<span class="highlight">Code</span></h2>
+        <p>Building Digital Products,<br>Brands & Experience.</p>
+      </div>
+      <div class="footer-section Resources">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Customer Stories</a></li>
+          <li><a href="#">Glossary</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Careers</a></li>
+          <li><a href="services.html">Partners</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Social Media</h4>
+        <ul>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Fixicode. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="javascript/index.js"></script>
+</body>
+
+</html>

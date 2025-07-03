@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylesheet/contact.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Contact | FixiCode</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <h1 class="logo_text">
+            Fixi<span class="logo_text agency">Code</span>
+            <!-- Web <span class="logo_text agency">Solutions</span>  -->
+          </h1>
+        </div>
+        <div class="tabs">
+          <ul>
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <a href="about.html">
+              <li>About</li>
+            </a>
+            <a href="services.html">
+              <li>Our Services</li>
+            </a>
+            <a href="contact.html">
+              <li class="active_tab">Contact Us</li>
+            </a>
+          </ul>
+        </div>
+        <div class="toggle">
+          <i class="fa-solid fa-bars" id="bars" onclick="mobileTab()"></i>
+          <i class="fa-solid fa-xmark" id="cancel" onclick="mobileTabClose()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div id="mobile_button">
+      <ul>
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="about.html">
+          <li>About</li>
+        </a>
+        <a href="services.html">
+          <li>Our Services</li>
+        </a>
+        <a href="contact.html">
+          <li class="active_nav">Contact Us</li>
+        </a>
+      </ul>
+    </div>
+
+     <section class="contact-section">
+    <div class="contact-left">
+      <h1>Get In Touch</h1>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- <input type="hidden" name="access_key" value="0bbba942-58da-44da-9db9-7eaf9a5ad1c4"> -->
+        
+        <div class="input-row">
+          <input type="hidden" name="access_key" value="0bbba942-58da-44da-9db9-7eaf9a5ad1c4">
+          <input type="text" name="full name" placeholder="Full Name">
+          <input type="text" name="phone number" placeholder="Phone Number">
+          <input type="email" name="email" placeholder="Mail">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="contact-right">
+      <img src="images/Illustration.png" alt="Developer Illustration">
+    </div>
+  </section>
+  </header>
+
+   <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>Fixi<span class="highlight">Code</span></h2>
+        <p>Building Digital Products,<br>Brands & Experience.</p>
+      </div>
+      <div class="footer-section Resources">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Customer Stories</a></li>
+          <li><a href="#">Glossary</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Careers</a></li>
+          <li><a href="services.html">Partners</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Social Media</h4>
+        <ul>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Fixicode. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="javascript/index.js"></script>
+</body>
+
+</html>
